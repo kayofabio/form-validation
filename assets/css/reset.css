@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    color: var(--color3);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="header-area">
+            <h1>Template de Examplo</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATOS</a></li>
+                    <li class="sign-up"><a href="pages/siginup.html">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="form-area">
+            <div class="user-img">
+                <img src="assets/imgs/user-img.jpg" alt="user-img">
+            </div>
+            <form method="post" class="form-field">
+                <label>
+                    <input type="text" data-rules="required|email" class="input-field" placeholder="email">
+                </label>
+                <label>
+                    <input type="password" data-rules="required|min=8" class="input-field" placeholder="senha">
+                </label>
+                <input type="submit" class="input-btn" value="Login">
+            </form>
+            <div class="not-registred">
+                <p>Não é cadastrado? <a href="pages/siginup.html">cadastre-se agora</a></p>
+            </div>
+        </section>
+        <section class="space-area">
+            <section>
+                <h2>Bem Vindo!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste.</p>
+            </section>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

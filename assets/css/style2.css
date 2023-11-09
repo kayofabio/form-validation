@@ -1,0 +1,62 @@
+:root {
+    --color1: #D4C4EB;
+    --color2: #002A20;
+    --color3: #ffffff;
+    --color4: #000000;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('../imgs/bg1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-area {
+    background-color: rgba(214, 198, 235, 0.4);
+    max-width: 400px;
+    padding: 12px;
+    border-radius: 16px;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+.input-field {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 24px;
+    outline: none;
+    padding: 8px;
+    margin-top: 12px;
+    color: var(--color3);
+    border: 1px solid var(--color1);
+}
+
+.input-field::placeholder {
+    color: var(--color3);
+    opacity: 70%;
+}
+
+
+.input-btn {
+    background-color: var(--color1);
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    margin: 12px 0px;
+    padding: 8px;
+    color: var(--color4);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
