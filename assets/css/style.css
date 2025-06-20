@@ -58,7 +58,7 @@ main {
     background-color: rgba(214, 198, 235, 0.4);
     width: 400px;
     height: 90%;
-    padding: 10px;
+    padding: 0px 10px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -66,8 +66,8 @@ main {
 }
 
 .user-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     align-self: center;
     margin: 16px 0px;
     border-radius: 50%;
@@ -113,7 +113,7 @@ form {
     border-radius: 24px;
     outline: none;
     border: none;
-    margin: 12px 0px;
+    margin-top: 12px;
     padding: 8px;
     color: var(--color4);
     font-size: 1.1rem;
@@ -145,10 +145,15 @@ form {
     align-items: center;
 }
 
+.signup-msg {
+    margin: 10px 0px;
+}
+
 @media (max-width: 950px) {
     main {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
     .space-area {
         display: none;
@@ -158,11 +163,13 @@ form {
 @media (max-width: 750px) {
     .form-area {
         width: 300px;
+        height: 85%;
     }
     nav ul li a {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+        padding: 3px;
     }
     .header-area {
         flex-direction: column;
-    }
+    } 
 }
